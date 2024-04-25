@@ -38,13 +38,13 @@ class Config:
     batch_size: int = 64
     max_input_len: int = 256
     max_target_len: int = 300
-    input_vocab_size: int = 500 # GPT-2 vocab_size of 50257, padded up to nearest multiple of 64 for efficiency
+    input_vocab_size: int = 500 
     target_vocab_size: int = 800
     n_layer: int = 6
     n_head: int = 6
     n_embd: int = 384
     dropout: float = 0.0
-    bias: bool = True # True: bias in Linears and LayerNorms, like GPT-2. False: a bit better and faster
+    bias: bool = True 
     device = 'cpu'
         
 config = Config()
