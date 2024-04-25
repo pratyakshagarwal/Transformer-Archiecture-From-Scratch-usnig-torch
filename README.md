@@ -66,9 +66,9 @@ torch.Size([64, 300, 800])
 ```
 
 ### Requirements
-Python 3.x
-PyTorch
-NumPy
+- Python 3.x
+- PyTorch
+- NumPy
 
 ### Acknowledgements
 This implementation and test case are adapted from the Transformer architecture proposed by **Vaswani et al. (2017)** and incorporate design choices from various sources in the research community.
